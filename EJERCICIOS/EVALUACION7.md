@@ -63,26 +63,45 @@ siguiente procedimiento:
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
 
-                import java.util.ArrayList;
-                  public class RecibeMascota {
-                      String nombre; // Nombre de la mascota
-                      int edad; // Edad de la mascota
-                      String raza; // raza de la mascota
-                      double tamano; // tamanio de la mascota
-                      String nombreDueno; // Nombre completo del duenio
-                      public static void main(String args[]) {
-                        // Creamos un arreglo de tipo RecibeMascota
-                          ArrayList<RecibeMascota> mascotasActuales = new ArrayList();
+import java.util.ArrayList;
+  public class RecibeMascota {
+      String nombre; // Nombre de la mascota
+      int edad; // Edad de la mascota
+      String raza; // raza de la mascota
+      double tamano; // tamanio de la mascota
+      String nombreDueno; // Nombre completo del duenio
+      public static void main(String args[]) {
+        // Creamos un arreglo de tipo RecibeMascota
+          ArrayList<RecibeMascota> mascotasActuales = new ArrayList();
 
-                          // Hacemos una instancia y creamos un objeto de tipo RecibeMascota
-                          RecibeMascota miManada = new RecibeMascota();
-                          miManada.nombre = "doggy";
-                          miManada.edad = 18;
-                          miManada.raza = "pug";
-                          miManada.tamano = 0.8;
-                          miManada.nombreDueno = "Monserrat Lopez";
-                          mascotasActuales.add(miManada);
-                          System.out.println("Perros actuales en la estetica: " + mascotasActuales.size());
-                      }
+          // Hacemos una instancia y creamos un objeto de tipo RecibeMascota
+          RecibeMascota miManada = new RecibeMascota();
+          miManada.nombre = "doggy";
+          miManada.edad = 10;
+          miManada.raza = "pug";
+          miManada.tamano = 0.32;
+          miManada.nombreDueno = "Monserrat Lopez";
+          mascotasActuales.add(miManada);
+          // Hacemos otra instancia y creamos un objeto de tipo RecibeMascota
+          miManada.nombre = "dog";
+          miManada.edad = 5;
+          miManada.raza = "pastor aleman";
+          miManada.tamano = 0.78;
+          miManada.nombreDueno = "Sergio del Carmen";
+          mascotasActuales.add(miManada);
+          miManada.nombre = "tobby";
+          miManada.edad = 4;
+          miManada.raza = "pastor belga";
+          miManada.tamano = 0.61;
+          miManada.nombreDueno = "Malena Hernandez";
+          mascotasActuales.add(miManada);
+          miManada.nombre = "kaira";
+          miManada.edad = 2;
+          miManada.raza = "sin raza";
+          miManada.tamano = 0.36;
+          miManada.nombreDueno = "Yesica Ramos";
+          mascotasActuales.add(miManada);
+          System.out.println("Perros actuales en la estetica: " + mascotasActuales.size());
+      }
 
-                  }
+  }
