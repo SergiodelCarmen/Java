@@ -39,7 +39,7 @@ clara, según sea el caso.
         
 8. Identifica las partes de una clase:
 
-![image](https://user-images.githubusercontent.com/104698382/180622907-a8649f52-43fd-46ff-baac-5de6d8435a0a.png)
+![image](https://user-images.githubusercontent.com/104698382/180623176-cc88c7ac-0b13-4ad6-884e-235f10b284cf.png)
 
 9. Deberás crear un programa que forme parte de un módulo para el sistema de una
 estética de perros. El programa deberá de contener lo siguiente: (Valor 2 puntos)
