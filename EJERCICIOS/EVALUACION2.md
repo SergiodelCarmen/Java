@@ -10,7 +10,7 @@ clara, según sea el caso.
 1. ¿Cuál de las siguientes líneas arrojaría un error de compilación? (Valor 1 punto)
 
           a. int balance = -30;
-          b. double isRaining = false;
+          b. double isRaining = false;    <---
           c. String gradeOnTest = "A";
           d. char grade_on_test = 'F';
 
@@ -18,14 +18,14 @@ clara, según sea el caso.
 
           a. "a"
           b. 'ab'
-          c. 'F'
+          c. 'F'    <---
           d. 7
 
 3. ¿A qué tipo de datos solo se le puede asignar uno de dos valores? (Valor 1 punto)
 
           a. char
           b. double
-          c. boolean
+          c. boolean    <---
           d. int
 
 4. ¿Qué línea declara la variable bestProgrammingLanguage y la inicializa para que
@@ -33,7 +33,7 @@ sea "Java"? (Valor 1 punto)
 
           a. bestProgrammingLanguage = String "Java";
           b. string bestProgrammingLanguage = "Java";
-          c. String bestProgrammingLanguage = "Java";
+          c. String bestProgrammingLanguage = "Java";    <---
           d. "Java" = String bestProgrammingLanguage;
 
 
@@ -43,7 +43,7 @@ nomenclatura de Java? (Valor 1 punto)
           a. 2ndPhoneNumber
           b. TimeUntilLaunch
           c. second_phone_number
-          d. timeUntilLaunch
+          d. timeUntilLaunch    <---
 
 6. ¿Qué línea de código declara una variable llamada numConejos para almacenar
 un número entero? (Valor 1 punto)
@@ -51,12 +51,12 @@ un número entero? (Valor 1 punto)
           a. numConejos = int;
           b. numConejos int;
           c. number numConejos;
-          d. int numConejos;
+          d. int numConejos;    <---
 
 7. ¿Qué valor NO se puede asignar a una variable con el tipo de datos double? (Valor
 1 punto)
 
-          a. "60"
+          a. "60"    <---
           b. 6.7
           c. 5
           d. -.2
@@ -72,6 +72,9 @@ se muestra a continuación: (Valor 2 puntos)
                        String nombre = "James Gosling";
 
                        int yearCreado = 1995;
+                       
+                       System.out.println(nombre);
+                       System.out.println(yearCreado);
 
                       }
 
