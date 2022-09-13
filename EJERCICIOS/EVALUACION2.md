@@ -100,7 +100,9 @@ tenemos el siguiente código definido: (Valor 2 puntos)
                   //Este es el método main que se ejecuta cuando compilas
                   public static void main(String[] args) {
                     //Aquí es donde vas a definir tu variable
+                    int numComentarios = 6;
                     //Aquí es donde vas a imprimir tu variable
+                    System.out.println(numComentarios);
                     }
                     //Este es el final de la class
                   }
@@ -124,6 +126,8 @@ archivo es CuotaMercado.java: (Valor 2 puntos)
 
               public class CuotaMercado {
                 public static void main(String[] args) {
+                    double androidCuota = 70.97;
+                    System.out.println(androidCuota);
                 }
               }
 
@@ -145,6 +149,8 @@ archivo es Booleans.java: (Valor 2 puntos)
 
               public class Booleans {
                 public static void main(String[] args) {
+                    boolean intsPuedeAlmacenarDecimales = false;
+                    System.out.println(intsPuedeAlmacenarDecimales);
                 }
               }
 
@@ -157,13 +163,16 @@ b. Imprime la variable intsPuedeAlmacenarDecimales.
 c. Escribe la salida.
 
                 Salida:
-                70.97
+                false
 
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
 
               public class Char {
                 public static void main(String[] args) {
+                    //Sergio del Carmen
+                    char primerLetra = 'S';
+                    System.out.println(primerLetra);
                 }
               }
     
@@ -178,13 +187,15 @@ d. Escribe la salida.
 
 
                 Salida:
-                M
+                S
 
 13. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Poema.java: (Valor 2 puntos)
 
               public class Poema {
                 public static void main(String[] args) {
+                    String verso = “Aquí no suceden cosas de mayor trascendencia que las rosas.”;
+                    System.out.println(verso);
                 }
               }
     
@@ -204,7 +215,16 @@ archivo es MiPerfil.java: (Valor 3 puntos)
 
               public class MyProfile {
                 public static void main(String[] args) {
-
+                    String nombre = "Sergio del Carmen";
+                    int edad = 29;
+                    double salarioDeseado = 20000.50;
+                    char genero = 'm';
+                    boolean buscandoTrabajo = true;
+                    System.out.println(nombre);
+                    System.out.println(edad);
+                    System.out.println(salarioDeseado);
+                    System.out.println(genero);
+                    System.out.println(buscandoTrabajo);
                 }
               }
     
@@ -232,8 +252,8 @@ g. Escribe la salida.
 
 
               Salida:
-              Mi Nombre
-              22
-              500000.01
-              n
+              Sergio del Carmen
+              29
+              20000.50
+              m
               true
